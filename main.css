@@ -1,0 +1,59 @@
+.Container
+{
+  z-index: 1;
+  width: 100%;
+  height:100%;
+}
+.Container::before{
+  content: '';
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-image: url("1200px-Iraqi_Airways_Logo.svg.png");
+  opacity: 0.5;
+  background-size: 95%;
+  background-position: top center;
+  z-index:-1;
+}
+*{color: #000;}
+.header{
+  text-align: center;
+}
+.headerA{
+  font-size: 18px;
+}
+/* .divTable{
+  display: block;
+  width: 95%;
+}
+.divTableRow {
+  display: table-row;
+}
+.divTableHeading {
+  background-color: #EEE;
+  display: table-header-group;
+}
+.divTableCell, .divTableHead {
+  border: 1px solid #000;
+  display: table-cell;
+  padding: 3px 10px;
+}
+.divTableHeading {
+  background-color: #EEE;
+  display: table-header-group;
+  font-weight: bold;
+}
+.divTableFoot {
+  background-color: #EEE;
+  display: table-footer-group;
+  font-weight: bold;
+}
+.divTableBody {
+  display: table-row-group;
+} */
+.alinkk{
+  text-decoration: none;
+  font-size: 17px;
+}

@@ -1,0 +1,61 @@
+.Container
+{
+  z-index: 1;
+  width: 100%;
+  height:100%;
+}
+.Container::before{
+  content: '';
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-image: url("1343441-263337249.jpg");
+  opacity: 0.5;
+  background-size: 100%;
+  background-position: top center;
+  z-index:-1;
+}
+*{color: #000;}
+ .Header 
+ { 
+    width: 100%;
+    height: 100px;  
+    clear: both;
+ } 
+ .S_H{
+    font-size: 20px;
+    color: rgb(49, 125, 125);
+ }
+ .H{
+    font-size: 20px; 
+    color: rgb(16, 68, 68);
+    text-decoration: none;
+ }
+ .Right 
+ { 
+    width: 22%;
+    height: 400px;
+    float: right;
+ } 
+ .RightRight{
+    width: 20%;
+    height: 400px;
+    float: right;
+ }
+ .Content
+ { 
+    width: 56%;
+    float: left;
+    margin: 5px;
+ }
+ .Cc{
+   text-align: justify; 
+   font-size: 20px; 
+   color: rgb(16, 68, 68);
+ }
+ .head{
+    text-align: center;
+    color: rgb(49, 125, 125);
+ }
